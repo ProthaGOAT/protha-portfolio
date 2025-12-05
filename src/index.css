@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #e5e5e5; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #a3a3a3; }
+/* Synth Styles */
+.synth-base { fill: #e2e2e2; }
+.dark .synth-base { fill: #2a2a2a; }
+
+.synth-keys-backdrop { fill: #1a1a1a; }
+
+/* White Keys */
+.synth-key.white .base { fill: #fdfbf7; transition: fill 0.1s; }
+.synth-key.white.active .base { fill: #e5e5e5; }
+.synth-key.white.active .pressed-overlay { opacity: 1; }
+.synth-key.white .pressed-overlay { opacity: 0; fill: rgba(0,0,0,0.1); }
+
+/* Black Keys */
+.synth-key.black .base { fill: #1a1a1a; }
+.synth-key.black.active .base { fill: #000; }
+
+/* LCD Screen */
+.lcd-bg { fill: #1a1a1a; }
+.lcd-base { fill: #4ade80; opacity: 0.3; } /* Retro Green inactive */
+.lcd-highlight { fill: #4ade80; filter: drop-shadow(0 0 2px #4ade80); } /* Retro Green active */
+
+/* Text inside keys */
+.key-letter { fill: #a3a3a3; opacity: 0.5; }
