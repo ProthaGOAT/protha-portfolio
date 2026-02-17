@@ -30,14 +30,7 @@ const Hero = () => {
         <RetroSynth />
 
       </motion.div>
-      
-      <motion.div 
-        animate={{ y: [0, 10, 0] }}
-        transition={{ repeat: Infinity, duration: 2 }}
-        className="absolute bottom-10 left-6 md:left-20 font-mono text-xs text-gray-400"
-      >
-        SCROLL TO EXPLORE ↓
-      </motion.div>
+    
     </section>
   );
 };
