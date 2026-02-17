@@ -26,8 +26,8 @@ const About = () => {
             while also learning best practices for responsive design, performance, and security.
           </p>
           <p className="text-gray-500 text-xl md:text-2xl">
-            I'm a 19‑year‑old who when I'm not coding, I create music, draw, cook, and write poetry and literature. 
-            Always eager to help with anything web‑development related.
+            I'm a passionate person, who when I'm not coding, I create music, draw, cook, and write poetry and literature. 
+            Always eager to assist with anything web‑development related.
           </p>
         </motion.div>
       </div>
