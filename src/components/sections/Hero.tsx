@@ -9,7 +9,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <span className="font-mono text-sm tracking-widest uppercase text-gray-500 mb-4 block">Portfolio v2.0</span>
+   
         
         <h1 className="font-serif text-6xl md:text-9xl text-ink dark:text-paper leading-[0.9] mb-8 transition-colors duration-500">
           Pro, the<br/>
