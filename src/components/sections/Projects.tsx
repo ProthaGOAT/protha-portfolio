@@ -16,7 +16,7 @@ const Projects = () => {
             viewport={{ once: true }}
             className="group"
           >
-            <a href="https://onyx-financial.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
+            <a href="https://onyx-orpin.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
               <div className="aspect-[16/9] bg-gray-900 mb-8 overflow-hidden rounded-lg border border-gray-800 relative shadow-2xl">
                 <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity z-10" />
                 <img 
