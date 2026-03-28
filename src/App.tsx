@@ -23,7 +23,7 @@ function App() {
         <Guestbook />
         
         <footer className="py-10 text-center font-mono text-xs opacity-40">
-          © {new Date().getFullYear()} PRO, THE FIRST. DESIGNED WITH ♥ & TONE.JS
+          © {new Date().getFullYear()} PRO, THE FIRST. DESIGNED WITH ♥ & REACT. I LOVE DEBBIE
         </footer>
       </div>
       
